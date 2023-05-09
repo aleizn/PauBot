@@ -5,13 +5,13 @@ let img = await(await fetch('https://github.com/BrunoSobrino.png')).buffer()
 let _uptime = process.uptime() * 1000
 let uptime = clockString(_uptime)
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-let str = `╭────[ *𝐀𝐥𝐞𝐢𝐳𝐧-𝐌𝐃* ]
+let str = `╭────[ *𝐏𝐚𝐮 𝐁𝐨𝐭* ]
 │
 │ *➤ ʜᴏʟᴀ ${taguser}*
 │
 │ *=> 🤖 ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ:* ${uptime}
 │ *=> ✅ ʙᴏᴛ ᴅᴇ ᴜsᴏ ᴘᴜʙʟɪᴄᴏ*
-│ *=> 👑 ᴄʀᴇᴀᴅᴏʀ: Aleizn*
+│ *=> 👑 ᴄʀᴇᴀᴅᴏʀ: AleiznxPau*
 │ *=> 🔗 ᴄᴜᴇɴᴛᴀs ᴏғᴄ:* https://www.instagram.com/ale.izn_20/
 ╰────────────────`.trim()
 let buttons = [{ buttonId: '#menu', buttonText: { displayText: '💫 𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻 💫' }, type: 1 }]
